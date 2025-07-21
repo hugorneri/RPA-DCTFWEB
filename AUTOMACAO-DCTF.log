@@ -1,0 +1,1287 @@
+2025-07-18 09:46:06,124 - INFO - Iniciando automação DCTF
+2025-07-18 09:46:06,767 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 09:46:13,422 - INFO - Driver configurado com sucesso.
+2025-07-18 09:46:13,857 - INFO - Iniciando processo de login manual.
+2025-07-18 09:46:30,006 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 09:46:30,048 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 09:46:31,186 - INFO - Iniciando navegação no sistema.
+2025-07-18 09:46:31,196 - INFO - Clicando no botão Home
+2025-07-18 09:46:34,877 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 09:46:34,964 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 09:46:41,933 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 09:46:42,227 - INFO - Clicando no botão Prosseguir
+2025-07-18 09:46:44,345 - INFO - Clicando no botão Sou Procurador
+2025-07-18 09:46:44,473 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 09:46:59,928 - INFO - Clicando no botão Ortogante
+2025-07-18 09:47:00,120 - INFO - Clicando no botão Nenhum
+2025-07-18 09:47:13,922 - INFO - Declaracao encontrada
+2025-07-18 09:47:13,956 - INFO - Clicando no botão Visualizar
+2025-07-18 09:47:17,731 - INFO - Clicando no botão Emitir DARF
+2025-07-18 09:47:22,851 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_28930338000161_180720250947455777.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\325 DARFWEB 06 2025.pdf'
+2025-07-18 09:47:22,852 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 09:47:22,929 - INFO - Clicando no botão OK
+2025-07-18 09:47:23,653 - INFO - Clicando no botão Voltar
+2025-07-18 09:47:24,657 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 09:47:25,033 - INFO - Clicando no botão Prosseguir
+2025-07-18 09:47:25,529 - INFO - Iniciando a transmissão da empresa: 46.729.946/0001-94
+2025-07-18 09:47:27,680 - INFO - Clicando no botão Ortogante
+2025-07-18 09:47:27,874 - INFO - Clicando no botão Nenhum
+2025-07-18 09:47:41,579 - INFO - Declaracao encontrada
+2025-07-18 09:47:41,601 - INFO - Clicando no botão Visualizar
+2025-07-18 09:47:44,912 - INFO - Clicando no botão Emitir DARF
+2025-07-18 09:47:50,048 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_46729946000194_180720250948127182.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\416 DARFWEB 06 2025.pdf'
+2025-07-18 09:47:50,048 - INFO - Download successful for 46.729.946/0001-94
+2025-07-18 09:47:50,113 - INFO - Clicando no botão OK
+2025-07-18 09:47:50,830 - INFO - Clicando no botão Voltar
+2025-07-18 09:47:52,154 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 09:47:52,323 - INFO - Clicando no botão Prosseguir
+2025-07-18 09:47:52,831 - INFO - Iniciando a transmissão da empresa: 48.355.610/0001-34
+2025-07-18 09:47:54,187 - INFO - Clicando no botão Ortogante
+2025-07-18 09:47:54,410 - INFO - Clicando no botão Nenhum
+2025-07-18 09:48:05,100 - INFO - Declaracao encontrada
+2025-07-18 09:48:05,127 - INFO - Clicando no botão Visualizar
+2025-07-18 09:48:08,145 - INFO - Clicando no botão Emitir DARF
+2025-07-18 09:48:13,293 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\460 DARFWEB 06 2025.pdf
+2025-07-18 09:48:13,294 - INFO - Download successful for 48.355.610/0001-34
+2025-07-18 09:48:13,361 - INFO - Clicando no botão OK
+2025-07-18 09:48:13,486 - INFO - Clicando no botão Voltar
+2025-07-18 09:48:23,886 - ERROR - Nenhuma declaração encontrada.
+2025-07-18 09:48:23,958 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: no such element: element not found
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1211a33+62339]
+	GetHandleVerifier [0x0x1211a74+62404]
+	(No symbol) [0x0x1052123]
+	(No symbol) [0x0x1063c31]
+	(No symbol) [0x0x1062d10]
+	(No symbol) [0x0x10593d2]
+	(No symbol) [0x0x10578ca]
+	(No symbol) [0x0x105ac4a]
+	(No symbol) [0x0x105acc7]
+	(No symbol) [0x0x109d86e]
+	(No symbol) [0x0x10e22a4]
+	(No symbol) [0x0x10bf3bc]
+	(No symbol) [0x0x10e07a3]
+	(No symbol) [0x0x10bf1b6]
+	(No symbol) [0x0x108e7a2]
+	(No symbol) [0x0x108f644]
+	GetHandleVerifier [0x0x14865c3+2637587]
+	GetHandleVerifier [0x0x14819ca+2618138]
+	GetHandleVerifier [0x0x12384aa+220666]
+	GetHandleVerifier [0x0x12288d8+156200]
+	GetHandleVerifier [0x0x122f06d+182717]
+	GetHandleVerifier [0x0x1219978+94920]
+	GetHandleVerifier [0x0x1219b02+95314]
+	GetHandleVerifier [0x0x1204c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 09:48:24,022 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 09:48:27,023 - INFO - Iniciando navegação no sistema.
+2025-07-18 09:48:58,168 - ERROR - Erro de navegacao: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1211a33+62339]
+	GetHandleVerifier [0x0x1211a74+62404]
+	(No symbol) [0x0x1052123]
+	(No symbol) [0x0x109a86e]
+	(No symbol) [0x0x109ac0b]
+	(No symbol) [0x0x10e2f72]
+	(No symbol) [0x0x10bf404]
+	(No symbol) [0x0x10e07a3]
+	(No symbol) [0x0x10bf1b6]
+	(No symbol) [0x0x108e7a2]
+	(No symbol) [0x0x108f644]
+	GetHandleVerifier [0x0x14865c3+2637587]
+	GetHandleVerifier [0x0x14819ca+2618138]
+	GetHandleVerifier [0x0x12384aa+220666]
+	GetHandleVerifier [0x0x12288d8+156200]
+	GetHandleVerifier [0x0x122f06d+182717]
+	GetHandleVerifier [0x0x1219978+94920]
+	GetHandleVerifier [0x0x1219b02+95314]
+	GetHandleVerifier [0x0x1204c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 09:48:58,169 - ERROR - Não foi possível retornar à página inicial após erro de navegação.
+2025-07-18 09:48:58,169 - INFO - Iniciando a transmissão da empresa: 48.355.610/0001-34
+2025-07-18 09:49:12,515 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 09:53:30,150 - INFO - Iniciando automação DCTF
+2025-07-18 09:53:30,743 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 09:53:54,373 - INFO - Driver configurado com sucesso.
+2025-07-18 09:53:54,736 - INFO - Iniciando processo de login manual.
+2025-07-18 09:54:23,604 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 09:54:24,230 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 09:54:24,923 - INFO - Iniciando navegação no sistema.
+2025-07-18 09:54:24,932 - INFO - Clicando no botão Home
+2025-07-18 09:54:29,518 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 09:54:29,599 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 09:54:36,149 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 09:54:36,354 - INFO - Clicando no botão Prosseguir
+2025-07-18 09:54:38,491 - INFO - Clicando no botão Sou Procurador
+2025-07-18 09:54:38,618 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 09:54:48,822 - INFO - Clicando no botão Ortogante
+2025-07-18 09:54:48,997 - INFO - Clicando no botão Nenhum
+2025-07-18 09:55:02,992 - INFO - Declaracao encontrada
+2025-07-18 09:55:03,025 - INFO - Clicando no botão Visualizar
+2025-07-18 09:55:06,282 - INFO - Clicando no botão Emitir DARF
+2025-07-18 09:55:11,413 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\325 DARFWEB 06 2025.pdf
+2025-07-18 09:55:11,413 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 09:55:11,490 - INFO - Clicando no botão OK
+2025-07-18 09:55:12,219 - INFO - Clicando no botão Voltar
+2025-07-18 09:55:13,582 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 09:55:13,744 - INFO - Clicando no botão Prosseguir
+2025-07-18 09:55:14,243 - INFO - Iniciando a transmissão da empresa: 46.729.946/0001-94
+2025-07-18 09:55:15,619 - INFO - Clicando no botão Ortogante
+2025-07-18 09:55:15,843 - INFO - Clicando no botão Nenhum
+2025-07-18 09:55:26,611 - INFO - Declaracao encontrada
+2025-07-18 09:55:26,635 - INFO - Clicando no botão Visualizar
+2025-07-18 09:55:29,659 - INFO - Clicando no botão Emitir DARF
+2025-07-18 09:55:34,787 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\416 DARFWEB 06 2025.pdf
+2025-07-18 09:55:34,788 - INFO - Download successful for 46.729.946/0001-94
+2025-07-18 09:55:34,856 - INFO - Clicando no botão OK
+2025-07-18 09:55:34,982 - INFO - Clicando no botão Voltar
+2025-07-18 09:55:35,326 - ERROR - Nenhuma declaração encontrada.
+2025-07-18 09:55:35,439 - ERROR - Erro no processamento do cliente 46.729.946/0001-94: Message: no such element: element not found
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0xb51a33+62339]
+	GetHandleVerifier [0x0xb51a74+62404]
+	(No symbol) [0x0x992123]
+	(No symbol) [0x0x9a3c31]
+	(No symbol) [0x0x9a2d10]
+	(No symbol) [0x0x9993d2]
+	(No symbol) [0x0x9978ca]
+	(No symbol) [0x0x99ac4a]
+	(No symbol) [0x0x99acc7]
+	(No symbol) [0x0x9dd86e]
+	(No symbol) [0x0xa222a4]
+	(No symbol) [0x0x9ff3bc]
+	(No symbol) [0x0xa207a3]
+	(No symbol) [0x0x9ff1b6]
+	(No symbol) [0x0x9ce7a2]
+	(No symbol) [0x0x9cf644]
+	GetHandleVerifier [0x0xdc65c3+2637587]
+	GetHandleVerifier [0x0xdc19ca+2618138]
+	GetHandleVerifier [0x0xb784aa+220666]
+	GetHandleVerifier [0x0xb688d8+156200]
+	GetHandleVerifier [0x0xb6f06d+182717]
+	GetHandleVerifier [0x0xb59978+94920]
+	GetHandleVerifier [0x0xb59b02+95314]
+	GetHandleVerifier [0x0xb44c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 09:55:35,523 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 09:55:38,524 - INFO - Iniciando navegação no sistema.
+2025-07-18 09:56:09,614 - ERROR - Erro de navegacao: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb51a33+62339]
+	GetHandleVerifier [0x0xb51a74+62404]
+	(No symbol) [0x0x992123]
+	(No symbol) [0x0x9da86e]
+	(No symbol) [0x0x9dac0b]
+	(No symbol) [0x0xa22f72]
+	(No symbol) [0x0x9ff404]
+	(No symbol) [0x0xa207a3]
+	(No symbol) [0x0x9ff1b6]
+	(No symbol) [0x0x9ce7a2]
+	(No symbol) [0x0x9cf644]
+	GetHandleVerifier [0x0xdc65c3+2637587]
+	GetHandleVerifier [0x0xdc19ca+2618138]
+	GetHandleVerifier [0x0xb784aa+220666]
+	GetHandleVerifier [0x0xb688d8+156200]
+	GetHandleVerifier [0x0xb6f06d+182717]
+	GetHandleVerifier [0x0xb59978+94920]
+	GetHandleVerifier [0x0xb59b02+95314]
+	GetHandleVerifier [0x0xb44c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 09:56:09,615 - ERROR - Não foi possível retornar à página inicial após erro de navegação.
+2025-07-18 09:56:09,615 - INFO - Iniciando a transmissão da empresa: 46.729.946/0001-94
+2025-07-18 09:56:40,756 - ERROR - Erro no processamento do cliente 46.729.946/0001-94: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb51a33+62339]
+	GetHandleVerifier [0x0xb51a74+62404]
+	(No symbol) [0x0x992123]
+	(No symbol) [0x0x9da86e]
+	(No symbol) [0x0x9dac0b]
+	(No symbol) [0x0xa22f72]
+	(No symbol) [0x0x9ff404]
+	(No symbol) [0x0xa207a3]
+	(No symbol) [0x0x9ff1b6]
+	(No symbol) [0x0x9ce7a2]
+	(No symbol) [0x0x9cf644]
+	GetHandleVerifier [0x0xdc65c3+2637587]
+	GetHandleVerifier [0x0xdc19ca+2618138]
+	GetHandleVerifier [0x0xb784aa+220666]
+	GetHandleVerifier [0x0xb688d8+156200]
+	GetHandleVerifier [0x0xb6f06d+182717]
+	GetHandleVerifier [0x0xb59978+94920]
+	GetHandleVerifier [0x0xb59b02+95314]
+	GetHandleVerifier [0x0xb44c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 09:56:40,825 - INFO - Tentando novamente (1 tentativas restantes)
+2025-07-18 09:56:43,825 - INFO - Iniciando navegação no sistema.
+2025-07-18 09:56:47,937 - ERROR - Erro de navegacao: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 09:56:47,938 - ERROR - Não foi possível retornar à página inicial após erro de navegação.
+2025-07-18 09:56:47,938 - INFO - Iniciando a transmissão da empresa: 46.729.946/0001-94
+2025-07-18 09:58:42,600 - INFO - Iniciando automação DCTF
+2025-07-18 09:58:43,238 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 09:58:53,398 - INFO - Driver configurado com sucesso.
+2025-07-18 09:58:53,692 - INFO - Iniciando processo de login manual.
+2025-07-18 09:59:12,707 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 09:59:13,861 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 09:59:14,250 - INFO - Iniciando navegação no sistema.
+2025-07-18 09:59:14,259 - INFO - Clicando no botão Home
+2025-07-18 09:59:17,401 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 09:59:17,485 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 09:59:24,658 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 09:59:24,858 - INFO - Clicando no botão Prosseguir
+2025-07-18 09:59:27,366 - INFO - Clicando no botão Sou Procurador
+2025-07-18 09:59:27,499 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 09:59:40,195 - INFO - Clicando no botão Ortogante
+2025-07-18 09:59:40,376 - INFO - Clicando no botão Nenhum
+2025-07-18 09:59:54,070 - INFO - Declaracao encontrada
+2025-07-18 09:59:54,105 - INFO - Clicando no botão Visualizar
+2025-07-18 09:59:57,229 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:00:02,355 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_28930338000161_180720251000255373.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\325 DARFWEB 06 2025.pdf'
+2025-07-18 10:00:02,355 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 10:00:02,434 - INFO - Clicando no botão OK
+2025-07-18 10:00:03,132 - INFO - Clicando no botão Voltar
+2025-07-18 10:00:04,266 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:00:04,665 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:00:05,173 - INFO - Iniciando a transmissão da empresa: 46.729.946/0001-94
+2025-07-18 10:00:06,842 - INFO - Clicando no botão Ortogante
+2025-07-18 10:00:07,055 - INFO - Clicando no botão Nenhum
+2025-07-18 10:00:20,665 - INFO - Declaracao encontrada
+2025-07-18 10:00:20,695 - INFO - Clicando no botão Visualizar
+2025-07-18 10:00:24,068 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:00:29,190 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_46729946000194_180720251000518242.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\416 DARFWEB 06 2025.pdf'
+2025-07-18 10:00:29,190 - INFO - Download successful for 46.729.946/0001-94
+2025-07-18 10:00:29,267 - INFO - Clicando no botão OK
+2025-07-18 10:00:29,958 - INFO - Clicando no botão Voltar
+2025-07-18 10:00:31,603 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:00:31,762 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:00:32,265 - INFO - Iniciando a transmissão da empresa: 48.355.610/0001-34
+2025-07-18 10:00:33,550 - INFO - Clicando no botão Ortogante
+2025-07-18 10:00:33,760 - INFO - Clicando no botão Nenhum
+2025-07-18 10:00:44,441 - INFO - Declaracao encontrada
+2025-07-18 10:00:44,467 - INFO - Clicando no botão Visualizar
+2025-07-18 10:00:47,357 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:00:52,490 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\460 DARFWEB 06 2025.pdf
+2025-07-18 10:00:52,491 - INFO - Download successful for 48.355.610/0001-34
+2025-07-18 10:00:52,559 - INFO - Clicando no botão OK
+2025-07-18 10:00:52,681 - INFO - Clicando no botão Voltar
+2025-07-18 10:00:53,015 - ERROR - Nenhuma declaração encontrada.
+2025-07-18 10:00:53,102 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: no such element: element not found
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x8d1a33+62339]
+	GetHandleVerifier [0x0x8d1a74+62404]
+	(No symbol) [0x0x712123]
+	(No symbol) [0x0x723c31]
+	(No symbol) [0x0x722d10]
+	(No symbol) [0x0x7193d2]
+	(No symbol) [0x0x7178ca]
+	(No symbol) [0x0x71ac4a]
+	(No symbol) [0x0x71acc7]
+	(No symbol) [0x0x75d86e]
+	(No symbol) [0x0x7a22a4]
+	(No symbol) [0x0x77f3bc]
+	(No symbol) [0x0x7a07a3]
+	(No symbol) [0x0x77f1b6]
+	(No symbol) [0x0x74e7a2]
+	(No symbol) [0x0x74f644]
+	GetHandleVerifier [0x0xb465c3+2637587]
+	GetHandleVerifier [0x0xb419ca+2618138]
+	GetHandleVerifier [0x0x8f84aa+220666]
+	GetHandleVerifier [0x0x8e88d8+156200]
+	GetHandleVerifier [0x0x8ef06d+182717]
+	GetHandleVerifier [0x0x8d9978+94920]
+	GetHandleVerifier [0x0x8d9b02+95314]
+	GetHandleVerifier [0x0x8c4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 10:00:53,196 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:00:56,199 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:00:56,219 - INFO - Clicando no botão Home
+2025-07-18 10:01:06,841 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:01:06,938 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:01:11,910 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:01:12,099 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:01:13,454 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:01:13,579 - INFO - Iniciando a transmissão da empresa: 48.355.610/0001-34
+2025-07-18 10:01:19,018 - INFO - Clicando no botão Ortogante
+2025-07-18 10:01:19,207 - INFO - Clicando no botão Nenhum
+2025-07-18 10:01:33,231 - INFO - Declaracao encontrada
+2025-07-18 10:01:33,257 - INFO - Clicando no botão Visualizar
+2025-07-18 10:01:36,554 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:01:41,675 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_48355610000134_180720251002045480.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\460 DARFWEB 06 2025.pdf'
+2025-07-18 10:01:41,676 - INFO - Download successful for 48.355.610/0001-34
+2025-07-18 10:01:41,745 - INFO - Clicando no botão OK
+2025-07-18 10:01:42,456 - INFO - Clicando no botão Voltar
+2025-07-18 10:01:43,608 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:01:44,014 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:01:44,515 - INFO - Iniciando a transmissão da empresa: 50.009.642/0001-20
+2025-07-18 10:01:45,831 - INFO - Clicando no botão Ortogante
+2025-07-18 10:01:46,022 - INFO - Clicando no botão Nenhum
+2025-07-18 10:01:56,727 - INFO - Declaracao encontrada
+2025-07-18 10:01:56,752 - INFO - Clicando no botão Visualizar
+2025-07-18 10:01:59,723 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:02:04,856 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\464 DARFWEB 06 2025.pdf
+2025-07-18 10:02:04,856 - INFO - Download successful for 50.009.642/0001-20
+2025-07-18 10:02:04,941 - INFO - Clicando no botão OK
+2025-07-18 10:02:05,114 - INFO - Clicando no botão Voltar
+2025-07-18 10:02:05,463 - ERROR - Nenhuma declaração encontrada.
+2025-07-18 10:02:05,558 - ERROR - Erro no processamento do cliente 50.009.642/0001-20: Message: no such element: element not found
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x8d1a33+62339]
+	GetHandleVerifier [0x0x8d1a74+62404]
+	(No symbol) [0x0x712123]
+	(No symbol) [0x0x723c31]
+	(No symbol) [0x0x722d10]
+	(No symbol) [0x0x7193d2]
+	(No symbol) [0x0x7178ca]
+	(No symbol) [0x0x71ac4a]
+	(No symbol) [0x0x71acc7]
+	(No symbol) [0x0x75d86e]
+	(No symbol) [0x0x7a22a4]
+	(No symbol) [0x0x77f3bc]
+	(No symbol) [0x0x7a07a3]
+	(No symbol) [0x0x77f1b6]
+	(No symbol) [0x0x74e7a2]
+	(No symbol) [0x0x74f644]
+	GetHandleVerifier [0x0xb465c3+2637587]
+	GetHandleVerifier [0x0xb419ca+2618138]
+	GetHandleVerifier [0x0x8f84aa+220666]
+	GetHandleVerifier [0x0x8e88d8+156200]
+	GetHandleVerifier [0x0x8ef06d+182717]
+	GetHandleVerifier [0x0x8d9978+94920]
+	GetHandleVerifier [0x0x8d9b02+95314]
+	GetHandleVerifier [0x0x8c4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 10:02:05,646 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:02:08,649 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:02:08,671 - INFO - Clicando no botão Home
+2025-07-18 10:02:11,752 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:02:11,834 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:02:18,070 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:02:18,256 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:02:19,539 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:02:19,678 - INFO - Iniciando a transmissão da empresa: 50.009.642/0001-20
+2025-07-18 10:02:25,126 - INFO - Clicando no botão Ortogante
+2025-07-18 10:02:25,311 - INFO - Clicando no botão Nenhum
+2025-07-18 10:02:39,119 - INFO - Declaracao encontrada
+2025-07-18 10:02:39,177 - INFO - Clicando no botão Visualizar
+2025-07-18 10:02:42,474 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:02:47,595 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_50009642000120_180720251003101825.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\464 DARFWEB 06 2025.pdf'
+2025-07-18 10:02:47,595 - INFO - Download successful for 50.009.642/0001-20
+2025-07-18 10:02:47,671 - INFO - Clicando no botão OK
+2025-07-18 10:02:48,245 - INFO - Clicando no botão Voltar
+2025-07-18 10:02:49,367 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:02:49,804 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:02:50,371 - INFO - Iniciando a transmissão da empresa: 49.482.793/0001-11
+2025-07-18 10:02:51,971 - INFO - Clicando no botão Ortogante
+2025-07-18 10:02:52,192 - INFO - Clicando no botão Nenhum
+2025-07-18 10:02:56,271 - INFO - Nenhuma declaração encontrada.
+2025-07-18 10:02:56,335 - INFO - Iniciando a transmissão da empresa: 48.503.984/0001-50
+2025-07-18 10:03:18,591 - ERROR - Erro no processamento do cliente 48.503.984/0001-50: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:17:12,392 - INFO - Iniciando automação DCTF
+2025-07-18 10:17:12,990 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:17:24,000 - INFO - Driver configurado com sucesso.
+2025-07-18 10:17:24,418 - INFO - Iniciando processo de login manual.
+2025-07-18 10:18:08,423 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 10:18:09,916 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 10:18:11,021 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:18:11,030 - INFO - Clicando no botão Home
+2025-07-18 10:18:14,285 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:18:14,368 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:18:21,061 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:18:21,266 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:18:22,313 - ERROR - Erro de navegacao: Message: element click intercepted: Element <a onclick="DisableButton();" id="ctl00_cphConteudo_btnProsseguir" class="btn btn-primary" disabled="disabled" href="javascript:__doPostBack('ctl00$cphConteudo$btnProsseguir','')">...</a> is not clickable at point (55, 186). Other element would receive the click: <div id="ctl00_cphConteudo_UpdatePanelLinkButton">...</div>
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+	GetHandleVerifier [0x0x3b1a33+62339]
+	GetHandleVerifier [0x0x3b1a74+62404]
+	(No symbol) [0x0x1f2123]
+	(No symbol) [0x0x240bb0]
+	(No symbol) [0x0x23ef6a]
+	(No symbol) [0x0x23cac7]
+	(No symbol) [0x0x23bd7d]
+	(No symbol) [0x0x230515]
+	(No symbol) [0x0x25f3bc]
+	(No symbol) [0x0x22ffa4]
+	(No symbol) [0x0x25f634]
+	(No symbol) [0x0x2807a3]
+	(No symbol) [0x0x25f1b6]
+	(No symbol) [0x0x22e7a2]
+	(No symbol) [0x0x22f644]
+	GetHandleVerifier [0x0x6265c3+2637587]
+	GetHandleVerifier [0x0x6219ca+2618138]
+	GetHandleVerifier [0x0x3d84aa+220666]
+	GetHandleVerifier [0x0x3c88d8+156200]
+	GetHandleVerifier [0x0x3cf06d+182717]
+	GetHandleVerifier [0x0x3b9978+94920]
+	GetHandleVerifier [0x0x3b9b02+95314]
+	GetHandleVerifier [0x0x3a4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 10:18:22,317 - ERROR - Não foi possível retornar à página inicial após erro de navegação.
+2025-07-18 10:18:22,323 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 10:18:53,449 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x3b1a33+62339]
+	GetHandleVerifier [0x0x3b1a74+62404]
+	(No symbol) [0x0x1f2123]
+	(No symbol) [0x0x23a86e]
+	(No symbol) [0x0x23ac0b]
+	(No symbol) [0x0x282f72]
+	(No symbol) [0x0x25f404]
+	(No symbol) [0x0x2807a3]
+	(No symbol) [0x0x25f1b6]
+	(No symbol) [0x0x22e7a2]
+	(No symbol) [0x0x22f644]
+	GetHandleVerifier [0x0x6265c3+2637587]
+	GetHandleVerifier [0x0x6219ca+2618138]
+	GetHandleVerifier [0x0x3d84aa+220666]
+	GetHandleVerifier [0x0x3c88d8+156200]
+	GetHandleVerifier [0x0x3cf06d+182717]
+	GetHandleVerifier [0x0x3b9978+94920]
+	GetHandleVerifier [0x0x3b9b02+95314]
+	GetHandleVerifier [0x0x3a4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 10:18:53,517 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:18:56,520 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:18:56,540 - INFO - Clicando no botão Home
+2025-07-18 10:18:59,492 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:18:59,580 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:19:06,117 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:19:06,325 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:19:08,113 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:19:08,254 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 10:19:19,957 - INFO - Clicando no botão Ortogante
+2025-07-18 10:19:20,135 - INFO - Clicando no botão Nenhum
+2025-07-18 10:19:23,798 - INFO - Clicando no botão Visualizar
+2025-07-18 10:19:27,309 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:19:32,434 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\325 DARFWEB 06 2025.pdf
+2025-07-18 10:19:32,434 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 10:19:32,503 - INFO - Clicando no botão OK
+2025-07-18 10:19:33,245 - INFO - Clicando no botão Voltar
+2025-07-18 10:19:34,331 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:19:34,698 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:20:06,310 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x3b1a33+62339]
+	GetHandleVerifier [0x0x3b1a74+62404]
+	(No symbol) [0x0x1f2123]
+	(No symbol) [0x0x23a86e]
+	(No symbol) [0x0x23ac0b]
+	(No symbol) [0x0x282f72]
+	(No symbol) [0x0x25f404]
+	(No symbol) [0x0x2807a3]
+	(No symbol) [0x0x25f1b6]
+	(No symbol) [0x0x22e7a2]
+	(No symbol) [0x0x22f644]
+	GetHandleVerifier [0x0x6265c3+2637587]
+	GetHandleVerifier [0x0x6219ca+2618138]
+	GetHandleVerifier [0x0x3d84aa+220666]
+	GetHandleVerifier [0x0x3c88d8+156200]
+	GetHandleVerifier [0x0x3cf06d+182717]
+	GetHandleVerifier [0x0x3b9978+94920]
+	GetHandleVerifier [0x0x3b9b02+95314]
+	GetHandleVerifier [0x0x3a4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 10:20:06,397 - INFO - Tentando novamente (1 tentativas restantes)
+2025-07-18 10:20:09,400 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:20:09,421 - INFO - Clicando no botão Home
+2025-07-18 10:20:12,979 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:20:13,057 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:20:19,628 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:20:19,826 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:20:21,162 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:20:21,285 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 10:20:29,542 - INFO - Clicando no botão Ortogante
+2025-07-18 10:20:29,730 - INFO - Clicando no botão Nenhum
+2025-07-18 10:20:33,481 - INFO - Clicando no botão Visualizar
+2025-07-18 10:20:37,175 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:20:42,303 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_28930338000161_180720251021051277.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\325 DARFWEB 06 2025.pdf'
+2025-07-18 10:20:42,304 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 10:20:42,377 - INFO - Clicando no botão OK
+2025-07-18 10:20:43,081 - INFO - Clicando no botão Voltar
+2025-07-18 10:20:44,637 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:20:44,796 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:20:59,071 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:22:32,162 - INFO - Iniciando automação DCTF
+2025-07-18 10:22:32,788 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:23:14,200 - INFO - Iniciando automação DCTF
+2025-07-18 10:23:14,865 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:23:29,349 - INFO - Driver configurado com sucesso.
+2025-07-18 10:23:29,880 - INFO - Iniciando processo de login manual.
+2025-07-18 10:23:58,825 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 10:23:58,859 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 10:23:59,861 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:23:59,870 - INFO - Clicando no botão Home
+2025-07-18 10:24:03,115 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:24:03,205 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:24:10,101 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:24:10,312 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:24:13,364 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:24:13,494 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 10:24:24,723 - INFO - Clicando no botão Ortogante
+2025-07-18 10:24:24,901 - INFO - Clicando no botão Nenhum
+2025-07-18 10:24:28,542 - INFO - Clicando no botão Visualizar
+2025-07-18 10:24:32,337 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:24:37,494 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_28930338000161_180720251025001030.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\325 DARFWEB 06 2025.pdf'
+2025-07-18 10:24:37,495 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 10:24:37,574 - INFO - Clicando no botão OK
+2025-07-18 10:24:38,340 - INFO - Clicando no botão Voltar
+2025-07-18 10:24:39,466 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:24:39,628 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:25:03,348 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:36:18,201 - INFO - Iniciando automação DCTF
+2025-07-18 10:36:18,862 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:36:31,431 - INFO - Driver configurado com sucesso.
+2025-07-18 10:36:32,035 - INFO - Iniciando processo de login manual.
+2025-07-18 10:36:51,309 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 10:36:51,382 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 10:36:52,136 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:36:52,150 - INFO - Clicando no botão Home
+2025-07-18 10:36:56,682 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:36:56,768 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:37:03,686 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:37:03,880 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:37:14,065 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:37:43,940 - INFO - Iniciando automação DCTF
+2025-07-18 10:37:44,560 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:37:54,131 - INFO - Driver configurado com sucesso.
+2025-07-18 10:37:54,484 - INFO - Iniciando processo de login manual.
+2025-07-18 10:38:20,764 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 10:38:20,799 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 10:38:21,301 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:38:21,310 - INFO - Clicando no botão Home
+2025-07-18 10:38:24,433 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:38:24,546 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:38:33,242 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:38:33,432 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:38:35,858 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:38:35,984 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 10:38:48,027 - INFO - Clicando no botão Ortogante
+2025-07-18 10:38:48,204 - INFO - Clicando no botão Nenhum
+2025-07-18 10:38:52,066 - INFO - Clicando no botão Visualizar
+2025-07-18 10:38:55,894 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:39:01,023 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\325 DARFWEB 06 2025.pdf
+2025-07-18 10:39:01,024 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 10:39:01,107 - INFO - Clicando no botão OK
+2025-07-18 10:39:02,034 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:39:33,137 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x331a33+62339]
+	GetHandleVerifier [0x0x331a74+62404]
+	(No symbol) [0x0x172123]
+	(No symbol) [0x0x1ba86e]
+	(No symbol) [0x0x1bac0b]
+	(No symbol) [0x0x202f72]
+	(No symbol) [0x0x1df404]
+	(No symbol) [0x0x2007a3]
+	(No symbol) [0x0x1df1b6]
+	(No symbol) [0x0x1ae7a2]
+	(No symbol) [0x0x1af644]
+	GetHandleVerifier [0x0x5a65c3+2637587]
+	GetHandleVerifier [0x0x5a19ca+2618138]
+	GetHandleVerifier [0x0x3584aa+220666]
+	GetHandleVerifier [0x0x3488d8+156200]
+	GetHandleVerifier [0x0x34f06d+182717]
+	GetHandleVerifier [0x0x339978+94920]
+	GetHandleVerifier [0x0x339b02+95314]
+	GetHandleVerifier [0x0x324c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+	(No symbol) [0x0]
+
+2025-07-18 10:39:33,216 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:39:36,219 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:40:05,594 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:49:22,317 - INFO - Iniciando automação DCTF
+2025-07-18 10:49:23,006 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:49:41,268 - ERROR - Erro geral na execução: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+	GetHandleVerifier [0x0xbd1a33+62339]
+	GetHandleVerifier [0x0xbd1a74+62404]
+	(No symbol) [0x0xa12123]
+	(No symbol) [0x0xa0240d]
+	(No symbol) [0x0xa00da9]
+	(No symbol) [0x0xa0161d]
+	(No symbol) [0x0xa243aa]
+	(No symbol) [0x0xa1a84d]
+	(No symbol) [0x0xa1a772]
+	(No symbol) [0x0x9f4318]
+	(No symbol) [0x0x9f257f]
+	(No symbol) [0x0xab3bc8]
+	(No symbol) [0x0xa7f3bc]
+	(No symbol) [0x0xaa07a3]
+	(No symbol) [0x0xa7f1b6]
+	(No symbol) [0x0xa4e7a2]
+	(No symbol) [0x0xa4f644]
+	GetHandleVerifier [0x0xe465c3+2637587]
+	GetHandleVerifier [0x0xe419ca+2618138]
+	GetHandleVerifier [0x0xbf84aa+220666]
+	GetHandleVerifier [0x0xbe88d8+156200]
+	GetHandleVerifier [0x0xbef06d+182717]
+	GetHandleVerifier [0x0xbd9978+94920]
+	GetHandleVerifier [0x0xbd9b02+95314]
+	GetHandleVerifier [0x0xbc4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 10:49:46,272 - INFO - Iniciando automação DCTF
+2025-07-18 10:50:00,389 - ERROR - Erro geral na execução: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:50:16,260 - INFO - Iniciando automação DCTF
+2025-07-18 10:50:16,917 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:50:26,721 - INFO - Driver configurado com sucesso.
+2025-07-18 10:50:27,101 - INFO - Iniciando processo de login manual.
+2025-07-18 10:50:48,813 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 10:50:49,964 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 10:50:50,553 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:50:50,563 - INFO - Clicando no botão Home
+2025-07-18 10:50:53,898 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:50:53,981 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:51:01,003 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:51:01,200 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:51:02,240 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: Message: element click intercepted: Element <a onclick="DisableButton();" id="ctl00_cphConteudo_btnProsseguir" class="btn btn-primary" disabled="disabled" href="javascript:__doPostBack('ctl00$cphConteudo$btnProsseguir','')">...</a> is not clickable at point (55, 186). Other element would receive the click: <div id="ctl00_cphConteudo_UpdatePanelLinkButton">...</div>
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+	GetHandleVerifier [0x0x291a33+62339]
+	GetHandleVerifier [0x0x291a74+62404]
+	(No symbol) [0x0xd2123]
+	(No symbol) [0x0x120bb0]
+	(No symbol) [0x0x11ef6a]
+	(No symbol) [0x0x11cac7]
+	(No symbol) [0x0x11bd7d]
+	(No symbol) [0x0x110515]
+	(No symbol) [0x0x13f3bc]
+	(No symbol) [0x0x10ffa4]
+	(No symbol) [0x0x13f634]
+	(No symbol) [0x0x1607a3]
+	(No symbol) [0x0x13f1b6]
+	(No symbol) [0x0x10e7a2]
+	(No symbol) [0x0x10f644]
+	GetHandleVerifier [0x0x5065c3+2637587]
+	GetHandleVerifier [0x0x5019ca+2618138]
+	GetHandleVerifier [0x0x2b84aa+220666]
+	GetHandleVerifier [0x0x2a88d8+156200]
+	GetHandleVerifier [0x0x2af06d+182717]
+	GetHandleVerifier [0x0x299978+94920]
+	GetHandleVerifier [0x0x299b02+95314]
+	GetHandleVerifier [0x0x284c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+	(No symbol) [0x0]
+
+2025-07-18 10:51:02,586 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:51:05,588 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:51:36,705 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x291a33+62339]
+	GetHandleVerifier [0x0x291a74+62404]
+	(No symbol) [0x0xd2123]
+	(No symbol) [0x0x11a86e]
+	(No symbol) [0x0x11ac0b]
+	(No symbol) [0x0x162f72]
+	(No symbol) [0x0x13f404]
+	(No symbol) [0x0x1607a3]
+	(No symbol) [0x0x13f1b6]
+	(No symbol) [0x0x10e7a2]
+	(No symbol) [0x0x10f644]
+	GetHandleVerifier [0x0x5065c3+2637587]
+	GetHandleVerifier [0x0x5019ca+2618138]
+	GetHandleVerifier [0x0x2b84aa+220666]
+	GetHandleVerifier [0x0x2a88d8+156200]
+	GetHandleVerifier [0x0x2af06d+182717]
+	GetHandleVerifier [0x0x299978+94920]
+	GetHandleVerifier [0x0x299b02+95314]
+	GetHandleVerifier [0x0x284c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+	(No symbol) [0x0]
+
+2025-07-18 10:51:36,776 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:51:39,778 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:52:10,849 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x291a33+62339]
+	GetHandleVerifier [0x0x291a74+62404]
+	(No symbol) [0x0xd2123]
+	(No symbol) [0x0x11a86e]
+	(No symbol) [0x0x11ac0b]
+	(No symbol) [0x0x162f72]
+	(No symbol) [0x0x13f404]
+	(No symbol) [0x0x1607a3]
+	(No symbol) [0x0x13f1b6]
+	(No symbol) [0x0x10e7a2]
+	(No symbol) [0x0x10f644]
+	GetHandleVerifier [0x0x5065c3+2637587]
+	GetHandleVerifier [0x0x5019ca+2618138]
+	GetHandleVerifier [0x0x2b84aa+220666]
+	GetHandleVerifier [0x0x2a88d8+156200]
+	GetHandleVerifier [0x0x2af06d+182717]
+	GetHandleVerifier [0x0x299978+94920]
+	GetHandleVerifier [0x0x299b02+95314]
+	GetHandleVerifier [0x0x284c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+	(No symbol) [0x0]
+
+2025-07-18 10:52:10,922 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:52:13,924 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:52:22,564 - ERROR - Erro no processamento do cliente 28.930.338/0001-61: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:53:13,868 - INFO - Iniciando automação DCTF
+2025-07-18 10:53:14,503 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:53:38,988 - INFO - Driver configurado com sucesso.
+2025-07-18 10:53:39,414 - INFO - Iniciando processo de login manual.
+2025-07-18 10:56:20,903 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 10:56:22,092 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 10:56:25,066 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:56:25,076 - INFO - Clicando no botão Home
+2025-07-18 10:56:30,632 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:56:30,724 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:56:37,948 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:56:38,156 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:56:42,336 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:56:42,461 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 10:56:55,839 - INFO - Clicando no botão Ortogante
+2025-07-18 10:56:56,015 - INFO - Clicando no botão Nenhum
+2025-07-18 10:56:59,524 - INFO - Clicando no botão Visualizar
+2025-07-18 10:57:03,231 - INFO - Clicando no botão Emitir DARF
+2025-07-18 10:57:08,355 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_28930338000161_180720251057309493.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\325 DARFWEB 06 2025.pdf'
+2025-07-18 10:57:08,356 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 10:57:08,441 - INFO - Clicando no botão OK
+2025-07-18 10:57:09,239 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:57:22,479 - ERROR - Erro no processamento do cliente 46.729.946/0001-94: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 10:57:22,845 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 10:58:52,778 - INFO - Iniciando automação DCTF
+2025-07-18 10:58:53,464 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 10:59:18,882 - INFO - Driver configurado com sucesso.
+2025-07-18 10:59:19,254 - INFO - Iniciando processo de login manual.
+2025-07-18 10:59:42,436 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 10:59:42,475 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 10:59:43,411 - INFO - Iniciando navegação no sistema.
+2025-07-18 10:59:43,420 - INFO - Clicando no botão Home
+2025-07-18 10:59:47,786 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 10:59:47,868 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 10:59:54,625 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 10:59:54,818 - INFO - Clicando no botão Prosseguir
+2025-07-18 10:59:58,845 - INFO - Clicando no botão Sou Procurador
+2025-07-18 10:59:58,966 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 11:00:06,851 - INFO - Clicando no botão Ortogante
+2025-07-18 11:00:07,047 - INFO - Clicando no botão Nenhum
+2025-07-18 11:00:10,683 - INFO - Clicando no botão Visualizar
+2025-07-18 11:00:14,341 - INFO - Clicando no botão Emitir DARF
+2025-07-18 11:00:19,462 - ERROR - Erro ao renomear o arquivo: [WinError 183] Não é possível criar um arquivo já existente: 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\GuiaPagamento_28930338000161_180720251100421146.pdf' -> 'g:\\Drives compartilhados\\BANCO DE DADOS T.I\\Automacoes\\automacao-DCTF\\Competencias executadas\\06 2025\\325 DARFWEB 06 2025.pdf'
+2025-07-18 11:00:19,462 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 11:00:19,539 - INFO - Clicando no botão OK
+2025-07-18 11:00:20,336 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:00:20,355 - INFO - Clicando no botão Home
+2025-07-18 11:00:22,116 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 11:00:22,269 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 11:00:27,972 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 11:00:28,155 - INFO - Clicando no botão Prosseguir
+2025-07-18 11:00:31,291 - INFO - Clicando no botão Sou Procurador
+2025-07-18 11:00:31,410 - INFO - Iniciando a transmissão da empresa: 46.729.946/0001-94
+2025-07-18 11:00:36,990 - INFO - Clicando no botão Ortogante
+2025-07-18 11:00:37,297 - INFO - Clicando no botão Nenhum
+2025-07-18 11:00:41,306 - INFO - Clicando no botão Visualizar
+2025-07-18 11:00:45,129 - INFO - Clicando no botão Emitir DARF
+2025-07-18 11:00:50,289 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\416 DARFWEB 06 2025.pdf
+2025-07-18 11:00:50,290 - INFO - Download successful for 46.729.946/0001-94
+2025-07-18 11:00:50,370 - INFO - Clicando no botão OK
+2025-07-18 11:00:54,701 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:00:54,723 - INFO - Clicando no botão Home
+2025-07-18 11:00:58,644 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 11:00:58,733 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 11:01:05,085 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 11:01:05,265 - INFO - Clicando no botão Prosseguir
+2025-07-18 11:01:08,165 - INFO - Clicando no botão Sou Procurador
+2025-07-18 11:01:08,313 - INFO - Iniciando a transmissão da empresa: 48.355.610/0001-34
+2025-07-18 11:01:15,080 - INFO - Clicando no botão Ortogante
+2025-07-18 11:01:15,278 - INFO - Clicando no botão Nenhum
+2025-07-18 11:01:19,425 - INFO - Clicando no botão Visualizar
+2025-07-18 11:01:22,739 - INFO - Clicando no botão Emitir DARF
+2025-07-18 11:01:27,877 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\460 DARFWEB 06 2025.pdf
+2025-07-18 11:01:27,878 - INFO - Download successful for 48.355.610/0001-34
+2025-07-18 11:01:27,941 - INFO - Clicando no botão OK
+2025-07-18 11:01:29,507 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:01:29,530 - INFO - Clicando no botão Home
+2025-07-18 11:01:33,117 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 11:01:33,205 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 11:01:39,248 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 11:01:39,433 - INFO - Clicando no botão Prosseguir
+2025-07-18 11:01:42,317 - INFO - Clicando no botão Sou Procurador
+2025-07-18 11:01:42,449 - INFO - Iniciando a transmissão da empresa: 50.009.642/0001-20
+2025-07-18 11:01:49,111 - INFO - Clicando no botão Ortogante
+2025-07-18 11:01:49,290 - INFO - Clicando no botão Nenhum
+2025-07-18 11:01:53,211 - INFO - Clicando no botão Visualizar
+2025-07-18 11:01:56,396 - INFO - Clicando no botão Emitir DARF
+2025-07-18 11:02:01,518 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\464 DARFWEB 06 2025.pdf
+2025-07-18 11:02:01,518 - INFO - Download successful for 50.009.642/0001-20
+2025-07-18 11:02:01,607 - INFO - Clicando no botão OK
+2025-07-18 11:02:02,427 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:02:02,439 - INFO - Clicando no botão Home
+2025-07-18 11:02:04,645 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 11:02:04,708 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 11:02:11,009 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 11:02:11,288 - INFO - Clicando no botão Prosseguir
+2025-07-18 11:02:14,360 - INFO - Clicando no botão Sou Procurador
+2025-07-18 11:02:14,467 - INFO - Iniciando a transmissão da empresa: 49.482.793/0001-11
+2025-07-18 11:02:20,713 - INFO - Clicando no botão Ortogante
+2025-07-18 11:02:20,896 - INFO - Clicando no botão Nenhum
+2025-07-18 11:02:45,285 - INFO - Nenhuma declaração encontrada.
+2025-07-18 11:02:45,364 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:03:16,528 - ERROR - Erro no processamento do cliente 48.503.984/0001-50: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1231a33+62339]
+	GetHandleVerifier [0x0x1231a74+62404]
+	(No symbol) [0x0x1072123]
+	(No symbol) [0x0x10ba86e]
+	(No symbol) [0x0x10bac0b]
+	(No symbol) [0x0x1102f72]
+	(No symbol) [0x0x10df404]
+	(No symbol) [0x0x11007a3]
+	(No symbol) [0x0x10df1b6]
+	(No symbol) [0x0x10ae7a2]
+	(No symbol) [0x0x10af644]
+	GetHandleVerifier [0x0x14a65c3+2637587]
+	GetHandleVerifier [0x0x14a19ca+2618138]
+	GetHandleVerifier [0x0x12584aa+220666]
+	GetHandleVerifier [0x0x12488d8+156200]
+	GetHandleVerifier [0x0x124f06d+182717]
+	GetHandleVerifier [0x0x1239978+94920]
+	GetHandleVerifier [0x0x1239b02+95314]
+	GetHandleVerifier [0x0x1224c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:03:16,587 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:03:19,588 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:03:19,589 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:03:19,589 - INFO - CNPJ 48.355.610/0001-34 já processado ou sem status. Pulando...
+2025-07-18 11:03:19,590 - INFO - CNPJ 50.009.642/0001-20 já processado ou sem status. Pulando...
+2025-07-18 11:03:19,591 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:03:50,664 - ERROR - Erro no processamento do cliente 49.482.793/0001-11: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1231a33+62339]
+	GetHandleVerifier [0x0x1231a74+62404]
+	(No symbol) [0x0x1072123]
+	(No symbol) [0x0x10ba86e]
+	(No symbol) [0x0x10bac0b]
+	(No symbol) [0x0x1102f72]
+	(No symbol) [0x0x10df404]
+	(No symbol) [0x0x11007a3]
+	(No symbol) [0x0x10df1b6]
+	(No symbol) [0x0x10ae7a2]
+	(No symbol) [0x0x10af644]
+	GetHandleVerifier [0x0x14a65c3+2637587]
+	GetHandleVerifier [0x0x14a19ca+2618138]
+	GetHandleVerifier [0x0x12584aa+220666]
+	GetHandleVerifier [0x0x12488d8+156200]
+	GetHandleVerifier [0x0x124f06d+182717]
+	GetHandleVerifier [0x0x1239978+94920]
+	GetHandleVerifier [0x0x1239b02+95314]
+	GetHandleVerifier [0x0x1224c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:03:50,741 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:03:53,743 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:03:53,744 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:03:53,745 - INFO - CNPJ 48.355.610/0001-34 já processado ou sem status. Pulando...
+2025-07-18 11:03:53,746 - INFO - CNPJ 50.009.642/0001-20 já processado ou sem status. Pulando...
+2025-07-18 11:03:53,747 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:04:01,818 - ERROR - Erro no processamento do cliente 49.482.793/0001-11: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-07-18 11:04:43,599 - INFO - Iniciando automação DCTF
+2025-07-18 11:04:44,204 - INFO - patching driver executable C:\Users\hugor\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-18 11:05:08,179 - INFO - Driver configurado com sucesso.
+2025-07-18 11:05:08,482 - INFO - Iniciando processo de login manual.
+2025-07-18 11:05:53,677 - INFO - Usuário confirmou que o login foi concluído.
+2025-07-18 11:05:53,987 - INFO - Login realizado com sucesso. Página principal identificada.
+2025-07-18 11:05:54,485 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:05:54,495 - INFO - Clicando no botão Home
+2025-07-18 11:05:56,929 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 11:05:57,013 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 11:06:04,174 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 11:06:04,367 - INFO - Clicando no botão Prosseguir
+2025-07-18 11:06:08,126 - INFO - Clicando no botão Sou Procurador
+2025-07-18 11:06:08,248 - INFO - Iniciando a transmissão da empresa: 28.930.338/0001-61
+2025-07-18 11:06:20,072 - INFO - Clicando no botão Ortogante
+2025-07-18 11:06:20,249 - INFO - Clicando no botão Nenhum
+2025-07-18 11:06:23,854 - INFO - Clicando no botão Visualizar
+2025-07-18 11:06:27,700 - INFO - Clicando no botão Emitir DARF
+2025-07-18 11:06:32,827 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\325 DARFWEB 06 2025.pdf
+2025-07-18 11:06:32,827 - INFO - Download successful for 28.930.338/0001-61
+2025-07-18 11:06:32,907 - INFO - Clicando no botão OK
+2025-07-18 11:06:33,785 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:06:33,806 - INFO - Clicando no botão Home
+2025-07-18 11:06:35,767 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 11:06:35,859 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 11:06:42,234 - INFO - Clicando no botão Sou Humano (captcha)
+2025-07-18 11:06:42,476 - INFO - Clicando no botão Prosseguir
+2025-07-18 11:06:45,111 - INFO - Clicando no botão Sou Procurador
+2025-07-18 11:06:45,233 - INFO - Iniciando a transmissão da empresa: 46.729.946/0001-94
+2025-07-18 11:06:50,619 - INFO - Clicando no botão Ortogante
+2025-07-18 11:06:50,822 - INFO - Clicando no botão Nenhum
+2025-07-18 11:06:54,693 - INFO - Clicando no botão Visualizar
+2025-07-18 11:07:16,827 - INFO - Clicando no botão Emitir DARF
+2025-07-18 11:07:21,957 - INFO - Arquivo renomeado para: g:\Drives compartilhados\BANCO DE DADOS T.I\Automacoes\automacao-DCTF\Competencias executadas\06 2025\416 DARFWEB 06 2025.pdf
+2025-07-18 11:07:21,958 - INFO - Download successful for 46.729.946/0001-94
+2025-07-18 11:07:22,025 - INFO - Clicando no botão OK
+2025-07-18 11:07:22,417 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:07:22,427 - INFO - Clicando no botão Home
+2025-07-18 11:07:24,071 - INFO - Clicando no botão Declarações e Demonstrativos
+2025-07-18 11:07:24,142 - INFO - Clicando no botão Assinar e transmitir DCTF
+2025-07-18 11:07:37,394 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:07:37,448 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:07:40,450 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:07:40,451 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:07:40,452 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:08:11,565 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:08:11,618 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:08:14,620 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:08:14,621 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:08:14,622 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:08:45,739 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:08:45,803 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:08:48,804 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:08:48,805 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:08:48,806 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:09:19,915 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:09:19,973 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:09:22,975 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:09:22,976 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:09:22,977 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:09:54,045 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:09:54,100 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:09:57,102 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:09:57,103 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:09:57,103 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:10:28,238 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:10:28,299 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:10:31,300 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:10:31,302 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:10:31,302 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:11:02,477 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:11:02,530 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:11:05,531 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:11:05,532 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:11:05,533 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:11:36,656 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:11:36,718 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:11:39,720 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:11:39,721 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:11:39,722 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:12:10,846 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:12:10,913 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:12:13,914 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:12:13,915 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:12:13,916 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:12:45,059 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xe3a86e]
+	(No symbol) [0x0xe3ac0b]
+	(No symbol) [0x0xe82f72]
+	(No symbol) [0x0xe5f404]
+	(No symbol) [0x0xe807a3]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:12:45,157 - INFO - Tentando novamente (2 tentativas restantes)
+2025-07-18 11:12:48,158 - INFO - CNPJ 28.930.338/0001-61 já processado ou sem status. Pulando...
+2025-07-18 11:12:48,159 - INFO - CNPJ 46.729.946/0001-94 já processado ou sem status. Pulando...
+2025-07-18 11:12:48,159 - INFO - Iniciando navegação no sistema.
+2025-07-18 11:12:48,161 - ERROR - Erro no processamento do cliente 48.355.610/0001-34: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+	GetHandleVerifier [0x0xfb1a33+62339]
+	GetHandleVerifier [0x0xfb1a74+62404]
+	(No symbol) [0x0xdf2123]
+	(No symbol) [0x0xde1b30]
+	(No symbol) [0x0xdff8f2]
+	(No symbol) [0x0xe65cbc]
+	(No symbol) [0x0xe80089]
+	(No symbol) [0x0xe5f1b6]
+	(No symbol) [0x0xe2e7a2]
+	(No symbol) [0x0xe2f644]
+	GetHandleVerifier [0x0x12265c3+2637587]
+	GetHandleVerifier [0x0x12219ca+2618138]
+	GetHandleVerifier [0x0xfd84aa+220666]
+	GetHandleVerifier [0x0xfc88d8+156200]
+	GetHandleVerifier [0x0xfcf06d+182717]
+	GetHandleVerifier [0x0xfb9978+94920]
+	GetHandleVerifier [0x0xfb9b02+95314]
+	GetHandleVerifier [0x0xfa4c4a+9626]
+	BaseThreadInitThunk [0x0x74e4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770282ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x7702827e+238]
+
+2025-07-18 11:12:48,215 - INFO - Tentando novamente (2 tentativas restantes)

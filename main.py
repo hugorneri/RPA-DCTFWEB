@@ -1,7 +1,7 @@
 import logging
 import os
 from pathlib import Path
-from src.automacao import configurar_driver, login, navegacao, transmissao
+from src.automacao import configurar_driver, login, transmissao
 from src.planilha import ler_planilha
 from src.utils import limpar_pasta
 
@@ -37,8 +37,7 @@ def main():
             print("Aguardando login manual...")
             login(driver)
             input("Login concluído? Pressione ENTER para continuar com a navegação e processamento...")
-            navegacao(driver)
-            transmissao(cnpjs, codigos, df, driver, str(IMAGEM_DIR), competencia, pasta_competencia, data_inicial, data_final)
+            transmissao(cnpjs, codigos, df, driver, competencia, pasta_competencia, data_inicial, data_final)
             df.to_excel('database.xlsx', index=False)
             print("="*50)
             print("AUTOMAÇÃO CONCLUÍDA COM SUCESSO!")
