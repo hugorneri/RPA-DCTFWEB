@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Instruções - Automação DCTF</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .section p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        .section ul, .section ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .section li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .warning {
+            background: #f8d7da;
+            padding: 15px;
+            border-left: 4px solid #dc3545;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .success {
+            background: #d4edda;
+            padding: 15px;
+            border-left: 4px solid #28a745;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .info {
+            background: #d1ecf1;
+            padding: 15px;
+            border-left: 4px solid #17a2b8;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e83e8c;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        table th {
+            background: #667eea;
+            color: white;
+        }
+        
+        table tr:hover {
+            background: #f5f5f5;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .toc {
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .toc h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .toc a {
+            color: #667eea;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+        
+        .toc a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📋 Manual de Instruções</h1>
+        <p>Automação DCTF - Sistema de Download Automático de DARF (DCTFWeb)</p>
+    </header>
+    
+    <div class="container">
+        <div class="toc">
+            <h2>📑 Índice</h2>
+            <ul>
+                <li><a href="#introducao">1. Introdução</a></li>
+                <li><a href="#requisitos">2. Requisitos do Sistema</a></li>
+                <li><a href="#instalacao">3. Instalação</a></li>
+                <li><a href="#planilha">4. Preparação da Planilha</a></li>
+                <li><a href="#uso">5. Como Usar o Sistema</a></li>
+                <li><a href="#configuracoes">6. Configurações</a></li>
+                <li><a href="#troubleshooting">7. Solução de Problemas</a></li>
+                <li><a href="#duvidas">8. Dúvidas Frequentes</a></li>
+            </ul>
+        </div>
+        
+        <section id="introducao" class="section">
+            <h2>1. Introdução</h2>
+            <p>
+                O <strong>Automação DCTF</strong> é um sistema desenvolvido para automatizar o processo de download 
+                de guias DARF (Documento de Arrecadação de Receitas Federais) do sistema e-CAC da Receita Federal.
+            </p>
+            <p>
+                Este sistema facilita o trabalho de contadores e empresas que precisam baixar múltiplas guias DARF 
+                de forma automatizada, economizando tempo e reduzindo erros manuais.
+            </p>
+            <div class="info">
+                <strong>⚠️ Importante:</strong> O login no e-CAC é realizado manualmente por questões de segurança. 
+                O sistema apenas automatiza a navegação e o download após o login ser confirmado.
+            </div>
+        </section>
+        
+        <section id="requisitos" class="section">
+            <h2>2. Requisitos do Sistema</h2>
+            <h3>2.1 Requisitos de Software</h3>
+            <ul>
+                <li><strong>Python 3.11 ou superior</strong> instalado</li>
+                <li><strong>Google Chrome</strong> instalado e atualizado</li>
+                <li><strong>Acesso ao e-CAC</strong> (certificado digital ou login/senha)</li>
+            </ul>
+            
+            <h3>2.2 Requisitos de Hardware</h3>
+            <ul>
+                <li>Mínimo 4GB de RAM</li>
+                <li>Espaço em disco suficiente para armazenar os PDFs baixados</li>
+                <li>Conexão estável com a internet</li>
+            </ul>
+        </section>
+        
+        <section id="instalacao" class="section">
+            <h2>3. Instalação</h2>
+            
+            <h3>3.1 Instalação do Python</h3>
+            <p>Se você ainda não tem o Python instalado:</p>
+            <ol>
+                <li>Acesse <code>https://www.python.org/downloads/</code></li>
+                <li>Baixe a versão 3.11 ou superior</li>
+                <li>Execute o instalador e marque a opção <strong>"Add Python to PATH"</strong></li>
+                <li>Complete a instalação</li>
+            </ol>
+            
+            <h3>3.2 Instalação das Dependências</h3>
+            <p>Siga os passos abaixo para instalar todas as dependências necessárias:</p>
+            
+            <div class="highlight">
+                <strong>Passo 1:</strong> Abra o terminal (Prompt de Comando ou PowerShell) no diretório do projeto
+            </div>
+            
+            <div class="highlight">
+                <strong>Passo 2:</strong> Crie um ambiente virtual (recomendado):
+                <br><code>python -m venv venv</code>
+            </div>
+            
+            <div class="highlight">
+                <strong>Passo 3:</strong> Ative o ambiente virtual:
+                <br><strong>Windows:</strong> <code>venv\Scripts\activate</code>
+                <br><strong>Linux/Mac:</strong> <code>source venv/bin/activate</code>
+            </div>
+            
+            <div class="highlight">
+                <strong>Passo 4:</strong> Instale as dependências:
+                <br><code>pip install -r requirements.txt</code>
+            </div>
+            
+            <div class="success">
+                ✅ Se tudo ocorreu bem, você verá mensagens de instalação concluída. 
+                Agora você pode executar o sistema!
+            </div>
+        </section>
+        
+        <section id="planilha" class="section">
+            <h2>4. Preparação da Planilha</h2>
+            
+            <p>
+                O sistema utiliza uma planilha Excel (.xlsx) como fonte de dados. Esta planilha deve conter 
+                informações sobre as empresas para as quais você deseja baixar as guias DARF.
+            </p>
+            
+            <h3>4.1 Estrutura da Planilha</h3>
+            <p>A planilha deve conter as seguintes colunas obrigatórias:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Coluna</th>
+                        <th>Obrigatória</th>
+                        <th>Descrição</th>
+                        <th>Exemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>CNPJ</strong></td>
+                        <td>✅ Sim</td>
+                        <td>CNPJ da empresa (com ou sem formatação)</td>
+                        <td>12345678000190</td>
+                    </tr>
+                    <tr>
+                        <td><strong>COD</strong></td>
+                        <td>✅ Sim</td>
+                        <td>Código identificador da empresa (usado no nome do arquivo PDF)</td>
+                        <td>325, 416, EMP001</td>
+                    </tr>
+                    <tr>
+                        <td><strong>STATUS</strong></td>
+                        <td>❌ Não</td>
+                        <td>Status do processamento (criada automaticamente se não existir)</td>
+                        <td>Guia baixada, Pendente</td>
+                    </tr>
+                    <tr>
+                        <td><strong>NOME</strong> ou <strong>RAZAO</strong></td>
+                        <td>❌ Não</td>
+                        <td>Nome/Razão Social (opcional, para visualização)</td>
+                        <td>Empresa XYZ Ltda</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>4.2 Formato do CNPJ</h3>
+            <p>
+                O CNPJ pode ser informado com ou sem formatação. O sistema aceita ambos os formatos:
+            </p>
+            <ul>
+                <li><strong>Com formatação:</strong> 12.345.678/0001-90</li>
+                <li><strong>Sem formatação:</strong> 12345678000190</li>
+            </ul>
+            
+            <h3>4.3 Formato do Código</h3>
+            <p>
+                O código será usado para nomear o arquivo PDF baixado. Use um código único para cada empresa.
+                Exemplos: números (325, 416), códigos alfanuméricos (EMP001, CLIENTE_A).
+            </p>
+            
+            <div class="warning">
+                <strong>⚠️ Atenção:</strong> Certifique-se de que não há CNPJs duplicados na planilha e que 
+                todos os CNPJs são válidos antes de iniciar o processamento.
+            </div>
+        </section>
+        
+        <section id="uso" class="section">
+            <h2>5. Como Usar o Sistema</h2>
+            
+            <h3>5.1 Iniciando o Sistema</h3>
+            <p>Para iniciar a interface gráfica, execute no terminal:</p>
+            <div class="highlight">
+                <code>python main.py</code>
+            </div>
+            
+            <h3>5.2 Passo a Passo Completo</h3>
+            
+            <div class="step-number">1</div>
+            <strong>Selecionar a Planilha</strong>
+            <p>
+                Clique no botão <strong>"Selecionar"</strong> na seção "Planilha de Dados" para escolher o arquivo Excel 
+                com os CNPJs. Se você já tem uma planilha padrão (<code>database.xlsx</code>), ela será carregada automaticamente.
+            </p>
+            
+            <div class="step-number">2</div>
+            <strong>Carregar os Dados</strong>
+            <p>
+                Após selecionar a planilha, clique em <strong>"Carregar Dados"</strong>. O sistema irá:
+            </p>
+            <ul>
+                <li>Validar a estrutura da planilha</li>
+                <li>Exibir um resumo (total de CNPJs, quantos já foram baixados, quantos estão pendentes)</li>
+                <li>Mostrar os dados na tabela abaixo</li>
+            </ul>
+            
+            <div class="step-number">3</div>
+            <strong>Configurar Parâmetros</strong>
+            <p>Preencha os campos na seção "Configurações":</p>
+            <ul>
+                <li><strong>Data Inicial:</strong> Data inicial do período (formato: DDMMAAAA, ex: 01062025)</li>
+                <li><strong>Data Final:</strong> Data final do período (formato: DDMMAAAA, ex: 30062025)</li>
+                <li><strong>Competência:</strong> Mês e ano da competência (formato: MM AAAA, ex: 06 2025)</li>
+                <li><strong>Timeout:</strong> Tempo máximo de espera por elementos na página (em segundos)</li>
+                <li><strong>Tentativas/CNPJ:</strong> Quantas vezes tentar baixar cada CNPJ em caso de erro</li>
+                <li><strong>Tentativas Gerais:</strong> Quantas vezes tentar reiniciar o processo em caso de erro geral</li>
+            </ul>
+            
+            <div class="step-number">4</div>
+            <strong>Salvar Configurações (Opcional)</strong>
+            <p>
+                Se desejar salvar as configurações para uso futuro, clique em <strong>"Salvar Configurações"</strong>. 
+                Elas serão carregadas automaticamente na próxima execução.
+            </p>
+            
+            <div class="step-number">5</div>
+            <strong>Iniciar a Automação</strong>
+            <p>
+                Clique no botão <strong>"Iniciar Automação"</strong>. O sistema irá:
+            </p>
+            <ol>
+                <li>Abrir o navegador Chrome automaticamente</li>
+                <li>Navegar até a página de login do e-CAC</li>
+                <li>Aguardar você fazer o login manualmente</li>
+            </ol>
+            
+            <div class="step-number">6</div>
+            <strong>Confirmar Login</strong>
+            <p>
+                Após fazer o login no e-CAC manualmente, clique no botão <strong>"Confirmar Login"</strong> na interface. 
+                O sistema então começará a processar os CNPJs automaticamente.
+            </p>
+            
+            <div class="step-number">7</div>
+            <strong>Acompanhar o Progresso</strong>
+            <p>
+                Durante o processamento, você pode acompanhar:
+            </p>
+            <ul>
+                <li><strong>Barra de Progresso:</strong> Mostra quantos CNPJs foram processados</li>
+                <li><strong>Status:</strong> Mostra o CNPJ sendo processado no momento</li>
+                <li><strong>Log de Execução:</strong> Mostra mensagens detalhadas do processo</li>
+                <li><strong>Tabela:</strong> Atualiza os status em tempo real</li>
+            </ul>
+            
+            <div class="step-number">8</div>
+            <strong>Conclusão</strong>
+            <p>
+                Quando o processamento terminar, você verá uma mensagem de sucesso. Os arquivos PDF estarão 
+                salvos na pasta <code>Competencias executadas/[COMPETENCIA]/</code> com o nome no formato:
+                <br><code>[CODIGO] DARFWEB [COMPETENCIA].pdf</code>
+            </p>
+            
+            <div class="info">
+                <strong>💡 Dica:</strong> Você pode interromper o processamento a qualquer momento clicando no botão 
+                <strong>"Parar"</strong>. O sistema salvará o progresso e você poderá continuar depois.
+            </div>
+        </section>
+        
+        <section id="configuracoes" class="section">
+            <h2>6. Configurações Detalhadas</h2>
+            
+            <h3>6.1 Datas</h3>
+            <p>
+                As datas devem ser informadas no formato <strong>DDMMAAAA</strong> (dia, mês, ano, sem separadores):
+            </p>
+            <ul>
+                <li>Data Inicial: Primeiro dia do período a ser consultado</li>
+                <li>Data Final: Último dia do período a ser consultado</li>
+            </ul>
+            <p><strong>Exemplo:</strong> Para o período de 01/06/2025 a 30/06/2025:</p>
+            <ul>
+                <li>Data Inicial: <code>01062025</code></li>
+                <li>Data Final: <code>30062025</code></li>
+            </ul>
+            
+            <h3>6.2 Competência</h3>
+            <p>
+                A competência deve ser informada no formato <strong>MM AAAA</strong> (mês e ano, separados por espaço):
+            </p>
+            <ul>
+                <li><strong>Exemplo:</strong> <code>06 2025</code> (junho de 2025)</li>
+            </ul>
+            
+            <h3>6.3 Timeout</h3>
+            <p>
+                O timeout define quanto tempo (em segundos) o sistema deve esperar por elementos aparecerem na página 
+                antes de considerar um erro. Valores recomendados:
+            </p>
+            <ul>
+                <li><strong>30 segundos:</strong> Padrão, adequado para conexões normais</li>
+                <li><strong>60 segundos:</strong> Para conexões mais lentas</li>
+                <li><strong>15 segundos:</strong> Para conexões muito rápidas (pode causar mais erros)</li>
+            </ul>
+            
+            <h3>6.4 Tentativas</h3>
+            <p>
+                O sistema possui dois tipos de tentativas:
+            </p>
+            <ul>
+                <li><strong>Tentativas por CNPJ:</strong> Se houver erro ao processar um CNPJ específico, quantas vezes tentar novamente antes de passar para o próximo</li>
+                <li><strong>Tentativas Gerais:</strong> Se houver um erro crítico que interrompa todo o processo, quantas vezes tentar reiniciar</li>
+            </ul>
+            <p><strong>Recomendação:</strong> Mantenha os valores padrão (3 tentativas) a menos que esteja enfrentando problemas específicos.</p>
+        </section>
+        
+        <section id="troubleshooting" class="section">
+            <h2>7. Solução de Problemas</h2>
+            
+            <h3>7.1 Erro: "Planilha não encontrada"</h3>
+            <p><strong>Solução:</strong></p>
+            <ul>
+                <li>Verifique se o caminho do arquivo está correto</li>
+                <li>Certifique-se de que o arquivo existe e não está aberto em outro programa</li>
+                <li>Tente selecionar o arquivo novamente usando o botão "Selecionar"</li>
+            </ul>
+            
+            <h3>7.2 Erro: "Colunas obrigatórias não encontradas"</h3>
+            <p><strong>Solução:</strong></p>
+            <ul>
+                <li>Verifique se a planilha contém as colunas <code>CNPJ</code> e <code>COD</code></li>
+                <li>Certifique-se de que os nomes das colunas estão escritos exatamente como mostrado (maiúsculas)</li>
+            </ul>
+            
+            <h3>7.3 Erro: "Nenhum CNPJ encontrado na planilha"</h3>
+            <p><strong>Solução:</strong></p>
+            <ul>
+                <li>Verifique se a planilha não está vazia</li>
+                <li>Certifique-se de que há dados nas linhas abaixo do cabeçalho</li>
+            </ul>
+            
+            <h3>7.4 O navegador não abre</h3>
+            <p><strong>Solução:</strong></p>
+            <ul>
+                <li>Verifique se o Google Chrome está instalado</li>
+                <li>Tente atualizar o Chrome para a versão mais recente</li>
+                <li>Verifique se não há outros processos do Chrome em execução</li>
+            </ul>
+            
+            <h3>7.5 Erro de timeout</h3>
+            <p><strong>Solução:</strong></p>
+            <ul>
+                <li>Aumente o valor do timeout nas configurações</li>
+                <li>Verifique sua conexão com a internet</li>
+                <li>O site do e-CAC pode estar lento - tente novamente mais tarde</li>
+            </ul>
+            
+            <h3>7.6 Arquivo PDF não foi baixado</h3>
+            <p><strong>Solução:</strong></p>
+            <ul>
+                <li>Verifique se há declaração DCTF disponível para o CNPJ no período informado</li>
+                <li>Verifique a pasta de downloads: <code>Competencias executadas/[COMPETENCIA]/</code></li>
+                <li>Verifique o log de execução para mensagens de erro específicas</li>
+            </ul>
+            
+            <h3>7.7 O sistema trava ou fica lento</h3>
+            <p><strong>Solução:</strong></p>
+            <ul>
+                <li>Feche outros programas que estejam consumindo memória</li>
+                <li>Verifique se há muitos processos do Chrome em execução</li>
+                <li>Reinicie o sistema se necessário</li>
+            </ul>
+        </section>
+        
+        <section id="duvidas" class="section">
+            <h2>8. Dúvidas Frequentes</h2>
+            
+            <h3>8.1 Posso usar o sistema em múltiplos computadores?</h3>
+            <p>
+                Sim, você pode instalar o sistema em quantos computadores quiser. Cada instalação é independente 
+                e mantém suas próprias configurações e logs.
+            </p>
+            
+            <h3>8.2 O sistema funciona com certificado digital?</h3>
+            <p>
+                Sim! O sistema funciona tanto com login/senha quanto com certificado digital. O login é feito 
+                manualmente, então você pode usar qualquer método de autenticação suportado pelo e-CAC.
+            </p>
+            
+            <h3>8.3 Posso processar CNPJs de diferentes competências?</h3>
+            <p>
+                Não simultaneamente. Você deve processar uma competência por vez. Para processar outra competência, 
+                altere o campo "Competência" nas configurações e execute novamente.
+            </p>
+            
+            <h3>8.4 O que acontece se eu fechar o sistema durante o processamento?</h3>
+            <p>
+                O sistema salva o progresso automaticamente. Quando você executar novamente, os CNPJs que já foram 
+                processados com sucesso (status "Guia baixada") serão pulados automaticamente.
+            </p>
+            
+            <h3>8.5 Posso editar a planilha enquanto o sistema está processando?</h3>
+            <p>
+                Não é recomendado. O sistema carrega a planilha no início e mantém os dados em memória. 
+                Alterações feitas durante o processamento não serão refletidas até a próxima execução.
+            </p>
+            
+            <h3>8.6 Onde ficam salvos os arquivos PDF?</h3>
+            <p>
+                Os arquivos são salvos na pasta <code>Competencias executadas/[COMPETENCIA]/</code> dentro do 
+                diretório do projeto. Por exemplo, se a competência for "06 2025", os arquivos estarão em:
+                <br><code>Competencias executadas/06 2025/</code>
+            </p>
+            
+            <h3>8.7 Como sei quais CNPJs já foram processados?</h3>
+            <p>
+                Após carregar a planilha, você pode ver na tabela a coluna "Status". CNPJs com status 
+                "Guia baixada" já foram processados com sucesso e serão pulados na próxima execução.
+            </p>
+            
+            <h3>8.8 O sistema funciona offline?</h3>
+            <p>
+                Não. O sistema precisa de conexão com a internet para acessar o site do e-CAC e fazer o download 
+                das guias DARF.
+            </p>
+        </section>
+        
+        <section class="section">
+            <h2>9. Suporte e Contato</h2>
+            <p>
+                Se você encontrar problemas que não foram resolvidos neste manual ou tiver sugestões de melhorias, 
+                consulte o arquivo <code>README.md</code> do projeto ou entre em contato com o desenvolvedor.
+            </p>
+            <div class="info">
+                <strong>📝 Nota:</strong> Este manual foi criado para ajudar usuários a utilizar o sistema de forma 
+                eficiente e segura. Sempre verifique se você tem permissão para usar automações no e-CAC conforme 
+                as políticas da Receita Federal e de sua organização.
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Manual de Instruções - Automação DCTF v1.0.0</p>
+        <p>Última atualização: 2025</p>
+    </footer>
+</body>
+</html>

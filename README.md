@@ -1,78 +1,109 @@
-# Automação DCTF
+## Automacao DCTF (e-CAC) - Guia Simples
 
-Automação para download e organização de DARFs via e-CAC, utilizando Selenium, undetected-chromedriver, PyAutoGUI e manipulação de planilhas Excel.
+Este sistema ajuda a baixar guias DARF (DCTFWeb) no e-CAC para varios CNPJs usando uma planilha Excel.
 
-## EM PROCESSO DE DESENVOLVIMENTO
+## Antes de comecar
 
-## Funcionalidades
+- Este projeto **nao faz login automatico** no e-CAC.
+- O login sempre sera feito por voce, manualmente, no navegador.
+- Use apenas conforme as regras da Receita e da sua empresa.
 
-- Automatiza o acesso ao portal e-CAC da Receita Federal.
-- Realiza login manual com proteção anti-bloqueio.
-- Pesquisa, baixa e renomeia arquivos DARF conforme planilha de clientes.
-- Atualiza o status de cada cliente em uma planilha Excel.
-- Utiliza reconhecimento de imagens para interagir com elementos visuais do sistema.
+## O que voce precisa
 
-## Pré-requisitos
-
-- Python 3.8 ou superior (recomendado Python 3.10+)
+- Windows
 - Google Chrome instalado
-- [ChromeDriver compatível](https://chromedriver.chromium.org/downloads) (ou utilize undetected-chromedriver)
-- Pacotes Python:
-  - pandas
-  - openpyxl
-  - pyautogui
-  - selenium
-  - undetected-chromedriver
-  - pathlib
+- Python 3.11 ou superior
+- Acesso ao e-CAC
 
-## Instalação
+## Instalacao (primeira vez)
 
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/automacao-DCTF.git
-   cd automacao-DCTF
-   ```
+Abra o terminal na pasta do projeto e rode os comandos abaixo:
 
-2. Instale as dependências:
-   ```sh
-   pip install -r requirements.txt
-   ```
-   > Se não existir um arquivo `requirements.txt`, instale manualmente:
-   ```sh
-   pip install pandas openpyxl pyautogui selenium undetected-chromedriver
-   ```
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
 
-3. Certifique-se de que a planilha `Clientes.xlsx` está na raiz do projeto, com as colunas `CNPJ` e `COD`.
+Se der erro de permissao, feche o terminal e abra novamente como administrador.
 
-4. Ajuste o caminho das pastas e imagens conforme necessário no código.
+## Como abrir o sistema
 
-## Como usar
+No terminal (dentro da pasta do projeto):
 
-1. Execute o script principal:
-   ```sh
-   python main.py
-   ```
-2. Faça o login manualmente no e-CAC quando solicitado.
-3. Aguarde a automação processar todos os clientes da planilha.
-4. Os arquivos baixados serão salvos na pasta `Competencias executadas/<competencia>` e a planilha será atualizada com o status de cada cliente.
+```bash
+venv\Scripts\activate
+python main.py
+```
 
-## Estrutura de Pastas
+Isso abre a tela principal (interface grafica).
 
-- `img/` — Imagens de referência para reconhecimento visual (botões, etc).
-- `Competencias executadas/` — Onde os DARFs baixados são salvos.
-- `Clientes.xlsx` — Planilha de entrada e saída dos dados dos clientes.
-- `perfil-path/` — Perfil do Chrome para evitar bloqueios.
+## Como preparar a planilha
 
-## Observações
+A planilha deve ser `.xlsx` e ter estas colunas:
 
-- O login no e-CAC é manual por questões de segurança.
-- O script utiliza reconhecimento de imagens, então a resolução da tela e o zoom do navegador devem ser mantidos conforme configurado durante a criação das imagens.
-- O log de execução é salvo em `AUTOMACAO-DCTF.log`.
+- `CNPJ` (obrigatoria)
+- `COD` (obrigatoria)
+- `STATUS` (opcional)
 
-## Contribuição
+Colunas de nome da empresa sao opcionais:
+`NOME`, `RAZAO`, `RAZAO_SOCIAL`, `RAZAO SOCIAL`, `EMPRESA`.
 
-Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro para discutir o que você gostaria de modificar.
+## Passo a passo de uso (na tela)
 
-## Licença
+1. Clique em **Selecionar** e escolha a planilha.
+2. Clique em **Carregar Dados**.
+3. Confira as configuracoes (datas, competencia, timeout e tentativas).
+4. Clique em **Iniciar Automacao**.
+5. Quando o navegador abrir, faca o login no e-CAC.
+6. Volte para o sistema e clique em **Confirmar Login**.
+7. Aguarde o processamento terminar.
 
-[MIT](LICENSE) 
+## Onde ficam os resultados
+
+- PDFs baixados: pasta `Competencias executadas/` (organizados por competencia)
+- Log de execucao: arquivo `AUTOMACAO-DCTF.log`
+- Configuracoes salvas: arquivo `config.json`
+
+## Erros comuns e como resolver
+
+### 1) "No module named ... "
+Faltam dependencias. Rode:
+
+```bash
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 2) Chrome nao abre ou fecha sozinho
+
+- Feche todas as janelas do Chrome e tente novamente.
+- Atualize o Chrome para a versao mais recente.
+- Reinicie o computador, se necessario.
+
+### 3) "Arquivo nao encontrado" / "Nenhum CNPJ encontrado"
+
+- Verifique se escolheu a planilha correta.
+- Confirme se as colunas `CNPJ` e `COD` existem e estao escritas exatamente assim.
+
+### 4) O sistema para durante a execucao
+
+- Veja a mensagem no log da tela.
+- Abra o arquivo `AUTOMACAO-DCTF.log` para mais detalhes.
+- Tente novamente com timeout maior.
+
+## Comandos uteis
+
+- Abrir interface: `python main.py`
+- Modo texto (avancado): `python main.py --cli`
+- Ver ajuda: `python main.py --help`
+
+## Suporte interno
+
+Ao pedir suporte para TI, envie:
+
+- print da tela com o erro
+- trecho final do `AUTOMACAO-DCTF.log`
+- planilha usada (sem dados sensiveis, se possivel)
+
+

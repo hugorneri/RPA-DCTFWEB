@@ -1,0 +1,56 @@
+### Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+env/
+
+### IDEs
+.vscode/
+.idea/
+
+### Logs e artefatos
+*.log
+AUTOMACAO-DCTF.log
+logs/
+
+### Config local (contém paths locais)
+config.json
+
+### Planilhas locais / dados
+database.xlsx
+*.xlsx
+*.xls
+~$*.xlsx
+~$*.xls
+
+### Downloads/saídas da automação
+Competencias executadas/
+Competencias executadas/**
+*.pdf
+
+### Perfil/cache do Chrome (dados sensíveis e muito volume)
+perfil-path/
+perfil-path/**
+
+### Arquivos locais do editor
+.cursor/
+
+### Notebooks e outputs
+.ipynb_checkpoints/
+construction.ipynb
+
+### Sistema operacional
+Thumbs.db
+Desktop.ini
+
+### Manual (deve ser versionado)
+!manual.html
+

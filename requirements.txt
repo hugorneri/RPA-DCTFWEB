@@ -1,0 +1,18 @@
+# Automação DCTF - Dependências
+
+# Selenium e driver Chrome não detectável
+undetected-chromedriver>=3.5.0
+selenium>=4.15.0
+
+# Manipulação de planilhas Excel
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Interface grafica moderna
+customtkinter>=5.2.2
+
+# Automação de interface (usado em utils.py)
+pyautogui>=0.9.54
+
+# Paths (já incluso no Python 3.4+, mas mantido para compatibilidade)
+pathlib

@@ -1,8 +1,16 @@
-import pyautogui
+import os
+import re
+import shutil
 import time
 import logging
-import os
-import shutil
+from pathlib import Path
+
+try:
+    import winreg
+except ImportError:
+    winreg = None
+
+import pyautogui
 
 # Função de reconhecimento de imagem na tela
 def reconhecimento(imagens_referencia, tempo_limite, confidence=1.0):
@@ -64,6 +72,35 @@ def clique2(imagens_referencia, tempo_limite, confidence=1.0, ocorrencia=1):
 def lentidao():
     time.sleep(1.5)
 
+
+def get_chrome_version():
+    """
+    Obtém o número da versão principal do Google Chrome instalado (ex: 144).
+    Usado para alinhar o ChromeDriver à versão do Chrome no Windows.
+
+    Returns:
+        int ou None: Versão principal (major) do Chrome, ou None se não detectada.
+    """
+    if winreg is None:
+        return None
+    keys = [
+        (winreg.HKEY_CURRENT_USER, r"Software\Google\Chrome\BLBeacon"),
+        (winreg.HKEY_LOCAL_MACHINE, r"Software\Google\Chrome\BLBeacon"),
+        (winreg.HKEY_LOCAL_MACHINE, r"SOFTWARE\Wow6432Node\Google\Chrome\BLBeacon"),
+    ]
+    for hkey, subkey in keys:
+        try:
+            key = winreg.OpenKey(hkey, subkey)
+            version, _ = winreg.QueryValueEx(key, "version")
+            winreg.CloseKey(key)
+            if version:
+                match = re.match(r"^(\d+)", str(version))
+                if match:
+                    return int(match.group(1))
+        except (OSError, TypeError):
+            continue
+    return None
+
 def limpar_pasta(pasta):
     """Remove todos os arquivos e subpastas de uma pasta."""
     pasta = str(pasta)
@@ -77,4 +114,48 @@ def limpar_pasta(pasta):
             elif os.path.isdir(item_path):
                 shutil.rmtree(item_path)
         except Exception as e:
-            print(f'Erro ao remover {item_path}: {e}') 
+            print(f'Erro ao remover {item_path}: {e}')
+
+def renomear_arquivo_recente(codigo, competencia, pasta_competencia):
+    """
+    Renomeia o arquivo mais recente da pasta para o padrão '<codigo> DARFWEB <competencia>.pdf'.
+    
+    Args:
+        codigo (str): Código do cliente.
+        competencia (str): Competência (ex: '06 2025').
+        pasta_competencia (str or Path): Caminho da pasta onde está o arquivo.
+        
+    Returns:
+        bool: True se o arquivo foi renomeado com sucesso, False caso contrário.
+    """
+    try:
+        pasta = Path(pasta_competencia)
+        
+        # Filtrar apenas arquivos (não diretórios) e excluir arquivos já renomeados
+        arquivos = [
+            f for f in pasta.glob("*") 
+            if f.is_file() and "DARFWEB" not in f.name
+        ]
+        
+        if not arquivos:
+            logging.warning(f"Nenhum arquivo novo encontrado na pasta {pasta_competencia}")
+            return False
+        
+        arquivo_recente = max(arquivos, key=os.path.getctime)
+        novo_nome = pasta / f"{codigo} DARFWEB {competencia}.pdf"
+        
+        # Verificar se o arquivo de destino já existe
+        if novo_nome.exists():
+            logging.warning(f"Arquivo {novo_nome} já existe. Removendo...")
+            novo_nome.unlink()
+        
+        arquivo_recente.rename(novo_nome)
+        logging.info(f"Arquivo renomeado para: {novo_nome}")
+        return True
+        
+    except ValueError as e:
+        logging.error(f"Erro ao encontrar arquivo mais recente: {e}")
+        return False
+    except Exception as e:
+        logging.error(f"Erro ao renomear o arquivo: {e}")
+        return False 
